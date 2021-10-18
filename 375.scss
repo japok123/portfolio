@@ -1,0 +1,41 @@
+@media all and (max-width:500px) {
+    * {
+        overflow-x: hidden;
+    }
+    .background {
+        .bgtext {
+            font-size: 90px;
+        }
+    }
+    .about {
+        .aboutText {
+            width: 100%;
+            flex: 1;
+        }
+        .aboutPicture {
+            display: none;
+        }
+    }
+    .container {
+        .projects {
+            flex-direction: column;
+            .project {
+                width: 80%;
+                height: 30%;
+            }
+        }
+        .footer {
+            flex-direction: column;
+            height: 120%;
+            padding: 1% 2%;
+            form {
+                width: 80%;
+                order: 1;
+            }
+            .links {
+                width: 80%;
+                order: 2;
+            }
+        }
+    }
+}
